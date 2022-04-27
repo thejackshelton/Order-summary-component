@@ -1,0 +1,62 @@
+/* Declaring Variables */
+:root {
+    --paleblue: hsl(225, 100%, 94%);
+    --brightblue: hsl(245, 75%, 52%);
+    --verypaleblue: hsl(225, 100%, 98%);
+    --desaturatedblue: hsl(224, 23%, 55%);
+    --darkblue: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+p {
+    color: var(--desaturatedblue);
+}
+
+/* The parent of the Order box */
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--verypaleblue);
+}
+
+/* Order Box */
+.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.order div {
+    max-width: 300px;
+    max-height: 800px;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
