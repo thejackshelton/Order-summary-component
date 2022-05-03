@@ -24,15 +24,19 @@
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
+
+    .attribution {
+      background-color: var(--verypaleblue);
+    }
   </style>
 </head>
 
 <body>
   <main class="order">
-    <div class="order">
+    <div>
       <!-- Image Header -->
       <div>
-        <img src="images/illustration-hero.svg" alt="">
+        <img class="hero_img" src="images/illustration-hero.svg" alt="">
       </div>
       <!-- Subscription Header -->
       <div>
@@ -46,15 +50,17 @@
         </p>
       </div>
       <!-- Pricing Plan -->
-      <div>
-        Annual Plan
-        $59.99/year
-        Change
+      <div class="pricing_plan">
+        <img src="images/icon-music.svg" alt="">
+        <span class="price"><b>Annual Plan</b><br>
+          <p class="cost">$59.99/year</p>
+        </span>
+        <span class="change">Change</span>
       </div>
       <!-- Payment Portal Button -->
-      <div>Proceed to Payment</div>
+      <div class="payment">Proceed to Payment</div>
       <!-- Cancel Order Button -->
-      <div>Cancel Order</div>
+      <div class="cancel">Cancel Order</div>
     </div>
 
   </main>
