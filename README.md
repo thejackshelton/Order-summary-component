@@ -31,8 +31,7 @@ https://gyazo.com/748c0e4bd746908caaac423792452226
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://thejackshelton.github.io/Order-summary-component/)
 
 ## My process
 
